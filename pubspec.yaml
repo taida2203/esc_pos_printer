@@ -4,16 +4,19 @@ version: 4.1.0
 homepage: https://github.com/andrey-ushakov/esc_pos_printer
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.16.0 <3.0.0"
 
 dependencies:
-  charset_converter: ^2.0.0
-  esc_pos_utils: ^1.1.0
+  charset_converter: ^2.1.1
   flutter:
     sdk: flutter
   # esc_pos_utils:
   #   path: ../esc_pos_utils
-  image: ^3.0.2
+  image: ^4.0.02
+dependency_overrides:
+  esc_pos_utils:
+    git:
+      url: https://github.com/taida2203/esc_pos_utils.git
 
 dev_dependencies:
   flutter_test:
