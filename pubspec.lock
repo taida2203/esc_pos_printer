@@ -81,15 +81,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.0"
-  esc_pos_utils:
-    dependency: "direct overridden"
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: ca990e6f58d69ad867509c22f2e05e63a1573d49
-      url: "https://github.com/taida2203/esc_pos_utils.git"
-    source: git
-    version: "1.1.0"
   fake_async:
     dependency: transitive
     description:
@@ -103,6 +94,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_esc_pos_utils:
+    dependency: "direct main"
+    description:
+      name: flutter_esc_pos_utils
+      sha256: b203559ca02a70d7a3e478c704bfdf4cf95ebb58e42dbba8ba4139adc40a6d19
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter

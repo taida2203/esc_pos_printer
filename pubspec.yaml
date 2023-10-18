@@ -13,10 +13,7 @@ dependencies:
   # esc_pos_utils:
   #   path: ../esc_pos_utils
   image: ^4.0.02
-dependency_overrides:
-  esc_pos_utils:
-    git:
-      url: https://github.com/taida2203/esc_pos_utils.git
+  flutter_esc_pos_utils: ^1.0.0
 
 dev_dependencies:
   flutter_test:
