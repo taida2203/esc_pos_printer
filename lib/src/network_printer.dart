@@ -8,7 +8,7 @@
 
 import 'dart:io';
 import 'dart:typed_data' show Uint8List;
-import 'package:flutter_esc_pos_utils/flutter_esc_pos_utils.dart';
+import 'package:esc_pos_utils_plus/esc_pos_utils.dart';
 import 'package:image/image.dart';
 import './enums.dart';
 
@@ -157,7 +157,7 @@ class NetworkPrinter {
   void qrcode(
     String text, {
     PosAlign align = PosAlign.center,
-    QRSize size = QRSize.size4,
+    QRSize size = QRSize.Size4,
     QRCorrection cor = QRCorrection.L,
   }) {
     _socket.add(_generator.qrcode(text, align: align, size: size, cor: cor));
